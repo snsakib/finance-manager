@@ -1,10 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import MainNav from './MainNav';
+import React from "react";
+import ReactDOM from "react-dom";
+import MainNav from "./MainNav/MainNav";
+import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainNav/>
+    <Router>
+      <MainNav />
+    </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
