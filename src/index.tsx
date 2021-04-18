@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MainNav from './MainNav';
 
 ReactDOM.render(
   <React.StrictMode>
-    Hello World!
+    <MainNav/>
   </React.StrictMode>,
   document.getElementById('root')
 );
