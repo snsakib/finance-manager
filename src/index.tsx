@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MainNav from "./MainNav/MainNav";
+import MainNav from "./nav/MainNav";
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(

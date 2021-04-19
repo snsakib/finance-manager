@@ -4,7 +4,7 @@ import {
   Link as RouterLink,
   LinkProps as RouterLinkProps,
 } from "react-router-dom";
-import MailIcon from "@material-ui/icons/Mail";
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 
 const textColor = {
   fontWeight: 700,
@@ -43,15 +43,10 @@ function ListItemLink(props: ListItemLinkProps) {
 const MainNavItems = () => {
   const navLinks = [
     {
-      linkText: "Home",
-      linkPath: "/",
-      icon: <MailIcon />,
-    },
-    {
-      linkText: "About",
-      linkPath: "/about",
-      icon: <MailIcon />,
-    },
+      linkText: "Accounts",
+      linkPath: "/accounts",
+      icon: <AccountBalanceIcon />,
+    }
   ];
 
   return (
